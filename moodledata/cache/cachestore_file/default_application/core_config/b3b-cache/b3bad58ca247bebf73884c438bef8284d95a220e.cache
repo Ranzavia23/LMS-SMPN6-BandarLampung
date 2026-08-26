@@ -1,0 +1,33 @@
+a:9:{s:15:"backgroundimage";s:0:"";s:10:"brandcolor";s:0:"";s:20:"loginbackgroundimage";s:27:"/Login_Backgroundimages.jpg";s:6:"preset";s:12:"default.scss";s:11:"presetfiles";s:0:"";s:4:"scss";s:128:"/* Menyembunyikan form General Feedback saat guru membuat soal */
+#fitem_id_generalfeedback {
+    display: none !important;
+}";s:7:"scsspre";s:739:".login-logo {
+    display: flex !important;
+    flex-direction: column;
+    align-items: center;
+}
+
+.login-logo::before {
+    content: "E-Learning SMPN 6 Bandar Lampung";
+    display: block;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: #333333;
+    margin-bottom: 15px;
+    text-align: center;
+}
+
+/* Menghapus paksa tombol Lupa Password */
+.forgotpass, a[href*="forgot_password.php"], .login-forgotpassword {
+    display: none !important;
+}
+
+/* Menghapus paksa peringatan Cookies */
+.cookieshelp, .login-settings, .login-instructions {
+    display: none !important;
+}
+
+/* Menghapus paksa sisa teks Guest jika masih ada */
+.guestsub, .loginguest, a[href*="guest=1"] {
+    display: none !important;
+}";s:15:"unaddableblocks";s:45:"navigation,settings,course_list,section_links";s:7:"version";s:10:"2024100700";}
